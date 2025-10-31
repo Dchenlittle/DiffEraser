@@ -10,8 +10,17 @@ Second, a Latent-Fusion (LF) decoder is introduced, by which the heterogeneous f
 
 ## Environment
 
-## Datasets
+conda create -n differaser python=3.8 -y
 
-## Citation
+conda activate differaser
+
+cd differaser
+
+pip install -r requirements.txt
+
+## Datasets
+### 1. Text Removal Dataset
+#### __· NPID295__
 
 ## Copyright
+This repository can only be used for non-commercial research purpose.
