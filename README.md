@@ -13,3 +13,5 @@ Second, a Latent-Fusion (LF) decoder is introduced, by which the heterogeneous f
 ## Datasets
 
 ## Citation
+
+## Copyright
