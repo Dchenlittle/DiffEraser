@@ -23,8 +23,7 @@ This is the official PyTorch codes for the paper.
 * pip install -r requirements.txt
 
 ## Datasets
-### 1. Text Removal Dataset
-* NPID295
+### NPID295
 
 The NPID295 dataset is a synthetic dataset consisting of 4,877 images, with 3,377 images used for training and 1,500 images used for testing. The synthetic text in NPID295 has arbitrary fonts, colors, positions, and sizes. It provides two types of annotations: text removal images (b) and text mask images (c). The dataset is divided into non-sensitive and sensitive portions. The non-sensitive portion is from open-access datasets and can be shared. The sensitive portion, sourced from copyrighted web content, is subject to restrictions. To provide full dataset access, we provide a direct download link for the non-sensitive portion and offer synthesis code for the sensitive portion. The synthesis process includes text mask extraction, content randomization (size and position), and background augmentation (cropping, photometric enhancement, and noise addition).
 
