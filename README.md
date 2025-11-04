@@ -5,6 +5,8 @@ This is the official PyTorch codes for the paper.
 ![image](https://github.com/Dchenlittle/DiffEraser/blob/main/Fig33_01.png)
 
 ## Todo List
+* Download link for the non-sensitive portion of NPID295
+
 * Generation Code for the NPID295 Dataset
 
 * Training Code
