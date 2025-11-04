@@ -26,6 +26,12 @@ This is the official PyTorch codes for the paper.
 ### 1. Text Removal Dataset
 * NPID295
 
+The NPID295 dataset is a synthetic dataset consisting of 4,877 images, with 3,377 images used for training and 1,500 images used for testing. The synthetic text in NPID295 has arbitrary fonts, colors, positions, and sizes. It provides two types of annotations: text removal images (b) and text mask images (c). 
+
+
+
+Note: Similar to SCUT_EnsTex, the NPID295 dataset can only be used for non-commercial research purposes.
+
 ## Contact
 
 If you have any questions, feel free to concat us or raise issues.
