@@ -1,26 +1,36 @@
 # DiffEraser: Generalized Text Erasure Based on Latent Diffusion Prior
-First, the conventional Variational Auto-Encoder (VAE) encoder is replaced with a Diffusion-Prior (DP) encoder, through which the heterogeneous information from the LDM prior knowledge in latent space is integrated with the multi-level encoded features of the input image.
-Second, a Latent-Fusion (LF) decoder is introduced, by which the heterogeneous features from both the LDM and DP encoders are integrated to generate high-quality text-erased results.
 
-
+This is the official PyTorch codes for the paper.
 
 ![image](https://github.com/Dchenlittle/DiffEraser/blob/main/Fig33_01.png)
 
 ## Todo List
+* Generation Code for the NPID295 Dataset
 
+* Training Code
+
+* Testing Code
+
+* DiffEraser Model Code
 ## Environment
 
-conda create -n differaser python=3.8 -y
+* conda create -n differaser python=3.8 -y
 
-conda activate differaser
+* conda activate differaser
 
-cd differaser
+* cd differaser
 
-pip install -r requirements.txt
+* pip install -r requirements.txt
 
 ## Datasets
 ### 1. Text Removal Dataset
-#### __· NPID295__
+* NPID295
+
+## Contact
+
+If you have any questions, feel free to concat us or raise issues.
+
+Suggestions and opinions of our work (both positive and negative) are welcome. 
 
 ## Copyright
 This repository can only be used for non-commercial research purpose.
